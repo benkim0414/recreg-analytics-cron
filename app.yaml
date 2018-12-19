@@ -1,0 +1,10 @@
+runtime: go
+env: flex
+api_version: go1
+
+env_variables:
+  GCLOUD_STORAGE_BUCKET: recreg-actions
+
+handlers:
+- url: /actions:upload
+  script: _go_app

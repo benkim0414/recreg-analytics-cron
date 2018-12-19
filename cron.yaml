@@ -1,0 +1,5 @@
+cron:
+- description: "daily uploading actions job"
+  url: /actions:upload
+  schedule: every day 09:00
+  timezone: Australia/Melbourne
